@@ -7,6 +7,11 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 # Open up the "foo.txt" file (which already exists) for reading
 # Print all the contents of the file, then close the file
+# f = open('foo.txt', 'w')
+with open('foo.txt') as f:
+    read_data = f.read()
+    print(read_data)
+
 
 # YOUR CODE HERE
 
@@ -16,3 +21,15 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+
+f = open('bar.txt', 'w+')
+f.write('YEet \n')
+f.write("skeep\n")
+f.write("Purple Goose
+?\n")
+f.close()
+
+
+with open('bar.txt') as f:
+    read_data = f.read()
+    print(read_data)
