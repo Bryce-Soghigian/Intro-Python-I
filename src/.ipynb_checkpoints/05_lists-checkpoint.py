@@ -29,10 +29,6 @@ print(x)
 # YOUR CODE HERE 
 print(len(x))
 # Print all the values in x multiplied by 1000
-<<<<<<< HEAD
 # YOUR CODE HERE
 for i in x:
     print(i*1000)
-=======
-# YOUR CODE HERE
->>>>>>> c4f241a58e60691438973e206402e8b3647e998f
