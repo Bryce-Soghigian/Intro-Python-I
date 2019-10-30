@@ -25,8 +25,7 @@ with open('foo.txt') as f:
 f = open('bar.txt', 'w+')
 f.write('YEet \n')
 f.write("skeep\n")
-f.write("Purple Goose
-?\n")
+f.write("Purple Goose?\n")
 f.close()
 
 

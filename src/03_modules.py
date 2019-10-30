@@ -24,13 +24,3 @@ print("\n***PYTHON VERSION***\n", sys.version)
 print("\n***PROCESS ID***\n", os.getpid())
 print("\n***CURRENT WORKING DIRECTORY***\n", os.getcwd())
 print("\n***LOGIN NAME***\n", os.getlogin())
-# See the docs for the OS module: https://docs.python.org/3.7/library/os.html
-
-# Print the current process ID
-# YOUR CODE HERE
-
-# Print the current working directory (cwd):
-# YOUR CODE HERE
-
-# Print out your machine's login name
-# YOUR CODE HERE
